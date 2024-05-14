@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
-:root{
+:root{#006400
     --branco: white;
-    --cor-de-fundo: #00162E;
+    --cor-de-fundo:background-image: radial-gradient(circle at 120.71% 50%, #a4ec79 0, #8be373 25%, #6cd86c 50%, #47cd66 75%, #00c464 100%);;
     --fundo-senha: #00244D;
-    --fundo-texto: #001E40;
+    --fundo-texto:#FF0000;
     --borda: #0075FF;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
@@ -12,22 +12,22 @@
 *{
     font-weight: 400;
 }
-body{
+body{background-image: radial-gradient(circle at 50% 50%, #ffe28b 0, #ffe87c 5%, #ffed6d 10%, #fff15e 15%, #fff551 20%, #fff745 25%, #fff93b 30%, #e6f934 35%, #c7f832 40%, #a4f635 45%, #79f23c 50%, #39ee47 55%, #00ea56 60%, #00e567 65%, #00e17b 70%, #00de8f 75%, #00daa6 80%, #00d7bd 85%, #00d5d5 90%, #00d3ee 95%, #00d1ff 100%);
     color: var(--branco);
     background-color: var(--cor-de-fundo);
     font-family: var(--roboto);
 }
 
-.titulo-principal{
+.titulo-principal{#1C1C1C	
     font-family: var(--roboto-mono);
     font-size: 32px;
 }
 
-.titulo-secundario{
+.titulo-secundario{background-image: radial-gradient(circle at 120.71% 50%, #a4ec79 0, #8be373 25%, #6cd86c 50%, #47cd66 75%, #00c464 100%);
     font-size: 24px;
 }
 
-.conteudo-titulo{
+.conteudo-titulo{#FF0000
   text-align: center;
   margin-top: 80px;
 }
@@ -58,7 +58,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
-.parametro{
+.parametro{background-image: radial-gradient(circle at 120.71% 50%, #a4ec79 0, #8be373 25%, #6cd86c 50%, #47cd66 75%, #00c464 100%);
     background-color: var(--fundo-texto);
     border: 2px solid var(--borda);
     margin-top: 32px;
@@ -70,11 +70,11 @@ body{
     font-size: 28px;
 }
 
-.parametro-senha__titulo{
+.parametro-senha__titulo{background-image: radial-gradient(circle at 120.71% 50%, #a4ec79 0, #8be373 25%, #6cd86c 50%, #47cd66 75%, #00c464 100%);
   font-size: 24px;
 }
 
-.parametro-coluna__senha{
+.parametro-coluna__senha{background-image: radial-gradient(circle at 120.71% 50%, #a4ec79 0, #8be373 25%, #6cd86c 50%, #47cd66 75%, #00c464 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,7 +85,7 @@ body{
     margin: 0 auto;
 }
 
-.parametro-senha-botoes{
+.parametro-senha-botoes{#000000
     display: flex;
 }
 
